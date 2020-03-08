@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Facture extends Model
+{
+     protected $table="factures";
+    protected $fillable=['items','total_HT','TVA','timbre','total_TTC','id_client'];
+
+}
